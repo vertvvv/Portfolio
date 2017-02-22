@@ -1,0 +1,306 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    overflow-x: hidden;
+}
+
+input, a, button {
+    outline: none;
+}
+
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+/*Reset end*/
+
+ul, li, h1, h2, h3, h4, h5, h6, p, a, .logo {
+    font-family: "Lato", "Verdana", sans-serif;
+}
+
+.inner {
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+
+header.alt-header {
+    background: #fff;
+}
+
+.alt-header a {
+    color: #000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 0;
+    width: 100%;
+    background: #000;
+    transition: 0.7s all;
+    z-index: 2;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+}
+
+@media (max-width: 740px) {
+    nav {
+        display: none;
+    }
+}
+
+header a:hover,
+header a.current-link {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+
+.logo {
+    float: left;
+    color: #fff;
+    font-size: 50px;
+    line-height: 70px;
+    transition: 0.7s all;
+    user-select: none;
+}
+
+.logo:hover {
+    color: #888;
+    background-color: #000;
+}
+
+.alt-header a:hover,
+.alt-header a.current-link {
+    color: #fff;
+    background-color: #000;
+}
+
+.alt-header .logo:hover {
+    color: #888;
+    background-color: #fff;
+}
+
+.alt-header .logo {
+    color: #000;
+}
+
+.alternate {
+    background: #000;
+    color: #fff;
+}
+
+#content {
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+nav {
+    margin-bottom: 0 !important;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+section {
+    font-size: 26px;
+}
+
+#about {
+    padding: 100px 0 50px 0;
+}
+
+#about h1,
+#portfolio h1,
+#contacts h1 {
+    font-size: 1.8em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.img-thumbnail {
+    border: none;
+    border-radius: 5px;
+}
+
+#portfolio {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#portfolio h2 {
+    font-size: 1.6em;
+    padding-bottom: 10px;
+}
+
+.technologies-list {
+    padding: 20px 0;
+}
+
+.project {
+    padding: 85px 0;
+}
+
+.project:first-of-type {
+    padding-top: 50px;
+}
+
+#portfolio img {
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .project {
+        padding: 35px 0;
+    }
+
+    h1 {
+        padding: 0 !important;
+    }
+
+    .inner {
+        width: 95%;
+    }
+}
+
+#portfolio p {
+    padding-bottom: 30px;
+}
+
+#portfolio h2:nth-child(1),
+#portfolio h2:nth-child(3) {
+    padding-top: 30px;
+}
+
+#portfolio img:hover {
+    opacity: 0.5;
+}
+
+#contacts {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#contacts h1 {
+    padding-bottom: 70px;
+}
+
+.contacts-list {
+    padding: 40px 0;
+}
+
+#contacts .row {
+    padding-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    #contacts h1 {
+        padding-bottom: 50px !important;
+    }
+}
+
+@media (max-width: 760px) {
+    .img-circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .contacts-list li {
+        display: block;
+    }
+
+    .disc {
+        display: none !important;
+    }
+}
+
+@media (max-width: 385px) {
+    .logo {
+        font-size: 30px !important;
+        text-align: center;
+    }
+}
