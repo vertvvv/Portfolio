@@ -6,17 +6,17 @@
 
     <title>Portfolio - Trokhin Ilya</title>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta name="theme-color" content="#000"/>
+    <meta name="theme-color" content="#000" />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet" />
 
 </head>
 
-<body>
+<body class="preload">
 
 <div id="content">
 
@@ -28,7 +28,7 @@
             <nav role='navigation'>
                 <ul>
                     <li><a id="aboutLink" href="#about" class="current-link">About</a></li>
-                    <li><a id="portfolioLink" href="#portfolio">Portfolio</a></li>
+                    <li><a id="portfolioLink" href="#projects">Projects</a></li>
                     <li><a id="contactsLink" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
@@ -41,12 +41,13 @@
             <div class="row text-center">
                 <div class="col-md-7 vcenter">
                     <p class="about-info">
-                        Hello, my name is Ilya Trokhin.
-                        I am currently studying at ITMO University and improving my front-end development skills.
+                        Hello, my name is Ilya Trokhin and i'm full-stack JavaScript developer. I'm experienced in
+                        complex single page web applications and cross-platform mobile applications based on React
+                        Native. Main front-end stack: React/Redux, back-end stack: Node.js/Express.
                     </p>
                 </div>
                 <div class="col-md-4 vcenter">
-                    <img src="img/avatar.png" class="img-thumbnail">
+                    <img src="img/avatar.png" class="img-thumbnail avatar">
                 </div>
             </div>
             <hr>
@@ -60,38 +61,41 @@
                 <li>●</li>
                 <li>Redux</li>
                 <li>●</li>
-                <li>SCSS</li>
+                <li>Express</li>
             </ul>
         </div>
     </section>
 
-    <section id="portfolio">
+    <section id="projects">
         <div class="wrapper">
-            <h1>Portfolio</h1>
+            <h1>Projects</h1>
             <div class="row text-center project">
                 <div class="col-md-5 vcenter">
-                    <a href="https://ibolit.pro" target="_blank">
-                        <img src="img/ibolit.png" class="img-thumbnail">
+                    <a href="https://app.payqin.com" target="_blank">
+                        <img src="img/payqin.png" class="img-thumbnail">
                     </a>
                 </div>
                 <div class="col-md-6 vcenter">
-                    <h2>iBolit</h2>
+                    <h2>PayQin</h2>
                     <p class="about-info">
-                        Telemedical platform for the clinic. Was part of the front-end developers team. Technologies: React, React Native, Redux.
+                        A payment information system that provides easy ways to exchange money and other financial
+                        opportunities to people in developing countries in Africa. Technologies: React, React Native,
+                        Redux, Express.
                     </p>
                 </div>
             </div>
             <hr>
             <div class="row text-center project">
                 <div class="col-md-5 vcenter">
-                    <a href="https://github.com/vertvvv/LetMeDoIt" target="_blank">
-                        <img src="img/letmedoit.png" class="img-thumbnail">
+                    <a href="https://doctor.ibolit.pro" target="_blank">
+                        <img src="img/ibolit.png" class="img-thumbnail">
                     </a>
                 </div>
                 <div class="col-md-6 vcenter">
-                    <h2>LetMeDoIt</h2>
+                    <h2>iBolit</h2>
                     <p class="about-info">
-                        Project where users can post their ideas and estimate them. Part of internship in SoftWerke company. Technologies: Node.js, Express, ES6, SCSS, Karma.
+                        Telemedical platform with video consultations between the doctor and the patient for private
+                        clinics. Technologies: React, React Native, Redux.
                     </p>
                 </div>
             </div>
@@ -105,8 +109,8 @@
                 <div class="col-md-6 vcenter">
                     <h2>Ticket Sale System</h2>
                     <p class="about-info">
-                        Ticket sale system for amusement park. University educational project. Made front-end part of
-                        this site. Technologies: HTML, CSS, Bootstrap, Jquery.
+                        Ticket sale system for amusement park. University educational project. Technologies: HTML, CSS,
+                        Bootstrap, Jquery.
                     </p>
                 </div>
             </div>
@@ -120,21 +124,7 @@
                 <div class="col-md-6 vcenter">
                     <h2>Yaroslavl Knitting Factory</h2>
                     <p class="about-info">
-                        Site for Yaroslavl Knitting Factory. Responsive layout for any screen size. Technologies: HTML, SCSS, Jquery.
-                    </p>
-                </div>
-            </div>
-            <hr>
-            <div class="row text-center project">
-                <div class="col-md-5 vcenter">
-                    <a href="#contacts">
-                        <img src="img/yartfshop.png" class="img-thumbnail">
-                    </a>
-                </div>
-                <div class="col-md-6 vcenter">
-                    <h2>WIP: Yaroslavl Knitting Factory shop</h2>
-                    <p class="about-info">
-                        Online store for Yaroslavl Knitting Factory. Technologies: React, Redux, SCSS.
+                        Fully responsive site for Yaroslavl Knitting Factory. Technologies: HTML, SCSS, Jquery.
                     </p>
                 </div>
             </div>
@@ -144,27 +134,27 @@
         <div class="wrapper">
             <h1>Contacts</h1>
             <div class="row text-center">
-                <div class="col-md-3 vcenter">
-                    <a href="https://vk.com/vertvvv" target="_blank">
-                        <img src="img/vk.png" class="img-circle">
+                <div class="col-md-3 col-xs-4 vcenter-desktop">
+                    <a class="social-link" href="https://vk.com/trokhin96" target="_blank">
+                        <img src="img/vk.svg" class="social-logo">
                     </a>
                 </div>
-                <div class="col-md-3 col-md-offset-1 vcenter">
-                    <a href="https://github.com/vertvvv" target="_blank">
-                        <img src="img/github.png" class="img-circle">
+                <div class="col-md-3 col-md-offset-1 col-xs-4 vcenter-desktop">
+                    <a class="social-link" href="https://github.com/vertvvv" target="_blank">
+                        <img src="img/github.svg" class="social-logo">
                     </a>
                 </div>
-                <div class="col-md-3 col-md-offset-1 vcenter">
-                    <a href="https://www.linkedin.com/in/ilya-trokhin-3a239113a/" target="_blank">
-                        <img src="img/linkedin.png" class="img-circle">
+                <div class="col-md-3 col-md-offset-1 col-xs-4 vcenter-desktop">
+                    <a class="social-link" href="https://www.linkedin.com/in/ilya-trokhin-3a239113a/" target="_blank">
+                        <img src="img/linkedin.svg" class="social-logo">
                     </a>
                 </div>
             </div>
-            <hr>
+            <hr class="contacts-hr">
             <ul class="list-inline contacts-list">
                 <li>Mail: trokhin96@yandex.ru</li>
                 <li class="disc">●</li>
-                <li>Skype: vertvvv</li>
+                <li>Telegram: trokhin96</li>
                 <li class="disc">●</li>
                 <li>City: Saint-Petersburg</li>
             </ul>
@@ -173,7 +163,6 @@
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
 </body>

@@ -31,3 +31,7 @@ function scrollToAnchor(id) {
   let aTag = $('#' + id);
   $('html,body').animate({scrollTop: aTag.offset().top}, 'slow');
 }
+
+$(window).load(function(){
+  $('body').removeClass('preload');
+});
