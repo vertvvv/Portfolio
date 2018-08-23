@@ -3,7 +3,7 @@ $(() => {
     const scrollTop = $(window).scrollTop();
     const header = $('#topnav');
     const headerHeight = header.height();
-    const transitionPointOne = $('#portfolio').offset().top - headerHeight;
+    const transitionPointOne = $('#projects').offset().top - headerHeight;
     const transitionPointTwo = $('#contacts').offset().top - headerHeight;
 
     if (scrollTop > transitionPointOne && scrollTop < transitionPointTwo) {
